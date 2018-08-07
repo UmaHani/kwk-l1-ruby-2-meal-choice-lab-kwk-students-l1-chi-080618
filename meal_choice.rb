@@ -1,20 +1,20 @@
 # Here's an example of a 'snacks' method that returns the meal choice passed in to it and defaults to "cheetos" if nothing is passed in.
 def snacks(food="Cheetos")
-  "Any time, is the right time for #{food}!"
+puts "Any time, is the right time for #{food}!"
 end
 
 # Define breakfast, lunch and dinner methods that return the meal choice passed into them. If nothing is passed in, it shoud default to the foods on the readme (frosted flake, grilled cheese, salmon)
 
 def breakfast(your_breakfast = "frosted flakes")
-  "Morning is the best time for #{your_breakfast}!"
+puts "Morning is the best time for #{your_breakfast}!"
 end 
 
 def lunch(your_lunch = "grilled cheese")
-  "For lunch time #{your_lunch} is the best!"
+ puts "For lunch time #{your_lunch} is the best!"
 end 
 
 def dinner(your_dinner = "salmon")
-  "#{salmon} is the best for dinner!"
+puts "#{salmon} is the best for dinner!"
 end 
 
 # Call the methods with puts and your own arguments here. Like this:
@@ -22,7 +22,9 @@ puts snacks("Swedish fish")
 ## This returns "Any time, is the right time for Sweedish fish!"
 
 # call your methods here
-
+breakfast("milk")
+lunch("macaroni")
+dinner("rice")
 
 # Call your methods without any arguments here
 puts snacks
